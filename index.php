@@ -85,34 +85,6 @@ print_r($array);
 print "<br/>";
 
 //question 10
-//function is_leap_year($year) {
-//	return ((($year % 4) == 0) && ((($year % 100) != 0) || (($year %
-//	400) == 0)));
-//	}
-//foreach( $year as $value) {
-
-//$is_leapYear= is_leap_year($value);
-
-//for($value % 4 == 0 && $value % 400 == 0) {
-//function is_leap_year($year) {
-// return ((($year % 4) == 0) && ((($year % 100) != 0) || (($year %
-// 400) == 0)));
-//	}
-//switch ($value){
-//case true:
-//echo ' true ';
-//break;
-
-//case false:
-//echo ' false ';
-//break;
-
-//}
-//}
-//}
-
-
-//works
 
 function is_leap_year($year) {
 return ((($year % 4) == 0) && ((($year % 100) != 0) || (($year % 400) ==
@@ -143,48 +115,5 @@ switch($is_leap_year)
 										  }
 
 print "<br/>";
-//'$value % 4 == 0 && $value % 400 == 0':
-  // $is_leap = true;
-    //  echo ' true ';
-//}
-//}
-//   $is_leap = true;
-  // echo ' true ';
-
- // }
-// else $is_leap = false;
-// echo ' false ';
-//}
-//switch($is_leap){
-//case 'false':
-  //    echo ' False ';
-    //  break;
-
-//case 'true':
-  //    echo ' True ';
-    //  break;
-
-//}
-//}
-
-
-//foreach ($year as $value) {
-
-//while ($value % 4 == 0) {
-//switch($value) {
-
-//case 'true':
-
-//case 'fale':
-//}
-
-//}
-//}
-
-
-
-
-
-
 
 ?>
